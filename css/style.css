@@ -1,0 +1,176 @@
+body{
+    font-family: "segeo ui light";
+}
+#main-nav{
+    background-color: transparent;
+}
+#loading{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000;
+    z-index: 99999999999;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+  
+    position: relative;
+    margin: 250px auto;
+  }
+  
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+.navbar img{
+    width: 15%;
+}
+.nav-item a{
+    color: #fff !important;
+    padding-left: 15px !important;
+    font-size: 20px;
+    transition: all .5s;
+    
+}
+.nav-item a:hover{
+    color: #8e7754 !important;
+}
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99999;
+    display: none;
+    font-size: 36px;
+   background-color: rgb(142, 119, 84);
+}
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height:100vh;
+}
+.home-content{
+    color: #fff;
+}
+.home-content h3{
+    font-size: 28px;
+}
+.home-content h2{
+    font-size: 42px;
+    font-weight:700;
+}
+.home-content p{
+    font-size: 22px;
+}
+.btn{
+    color: #fff !important;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.btn1{
+background-color: #8e7754;
+}
+.btn2{
+    border: white 1px solid;
+    margin-left: 3px;
+}
+.about-content h2{
+    font-size: 36px;
+}
+.about-icons i{
+    color:#8e7754;
+    font-size: 22px;
+    padding-right: 10px;
+}
+.location-content h2{
+    font-size: 36px;
+}
+.baking-titel h2{
+    font-size: 36px;
+}
+.contact-info h2{
+    font-size: 36px;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 450px;
+}
+.footer{
+    background-color: #403d38;
+    color: #fff;
+}
+.footer h4{
+    padding-bottom: 20px;
+}
+.footer p{
+    color: #686868;
+}
+.content p{
+    position: relative;
+}
+.content p::after{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 200px;
+    height: 1px;
+    background-color: #706868;
+}
+.copyRights{
+    background-color: #252323;
+    color: #fff;
+}
+.social-icons i{
+    padding: 0 5px;
+    font-size: 20px;
+    transition:  all .5s;
+}
+.social-icons i:hover{
+    color: #8e7754;
+}
+.image{
+    overflow: hidden;
+}
+.baking-item img:hover{
+    transition: all .5s;
+}
+.baking-item img:hover{
+transform: scale(1.2,1.2);
+}
